@@ -1,0 +1,40 @@
+Figures:
+
+1_ : 	Ue = Eingangsspannung
+	Us = Stoerspannung
+
+2_ :	Ue = Eingangsspannung
+	Us = UsR
+
+3_ :	Ue = Sinuide Eingangsspannung (0.1V, 10rad/s)
+	Us = UsR
+	Ue und Ua sind phasengleich
+
+4_ : 	Ue = Sinuide Eingangsspannung (0.5V, 1000rad/s)
+	Us = UsR
+	Ue und Ua sind um 90° phasenverschoben
+
+5_ :	Ue = Sinuide Eingangsspannung (0.5V, 10000rad/s)
+	Us = UsR
+	Ue und Ua sind um 180° phasenverschoben
+
+
+
+Welches Systemverhalten können Sie hierbei erkennen?	
+Mit zunehmender Frequenz, wird die Amplitude am Ausgang kleiner => Tiefpassverhalten
+
+Wie verhält sich das System bei Aufschaltung einer sprungförmigen Störung?
+Ein Sprung der Störspannung beeinflusst den Verstärkungsfaktor.
+Bei einem zu hohen Sprung der Störspannung bleibt die Simulation hängen.
+
+Wie wirkt sich die nichtlineare Kapazität auf das dynamische Systemverhalten aus?
+Steigt die Spannung an C1, dann steigt auch die Kapazität von C1.
+Steigt die Eingangsspannung, dann fällt die Spannung an C1 und somit auch die Kapazität von C1.
+
+In welcher Weise beeinflusst sie das stationäre Systemverhalten?
+
+Untersuchen Sie die Unterschiede zwischen dem nichtlinearen und dem linearisierten System. Wie erklären sich diese Unterschiede?
+Bei einem Sprung am Störeingang schwingt das nichtlinearisierte System über und pendelt sich nach gewisser Zeit wieder ein. Das linearisiert System schwingt nicht über. 
+
+
+
